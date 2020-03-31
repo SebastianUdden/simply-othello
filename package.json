@@ -1,0 +1,28 @@
+{
+  "name": "simply-othello",
+  "private": true,
+  "description": "An othello application for the modern web.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "cypress open"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.45",
+    "gatsby-plugin-manifest": "^2.3.1",
+    "gatsby-plugin-offline": "^3.1.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "prettier": "^1.19.1"
+  }
+}
